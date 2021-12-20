@@ -18,8 +18,8 @@ public class B_use_of_get_method {
 	}
 	@Test
 	public void loginButtonTest() {
-		driver.findElement(By.id("cms-login-submit")).click();
-		
+	boolean elementDisplayed=	driver.findElement(By.id("cms-login-submit")).isDisplayed();
+		System.out.println("element displayed" + elementDisplayed);
 	}
 
 	@AfterTest
