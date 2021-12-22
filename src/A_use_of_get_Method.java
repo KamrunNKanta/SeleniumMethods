@@ -25,10 +25,12 @@ public class A_use_of_get_Method {
 	public void loginButtonTest() throws InterruptedException {
 	boolean elementDisplayed=	driver.findElement(By.xpath("//button[@id='signin']")).isDisplayed();
 System.out.println("is elememt displayed" + elementDisplayed);
-		Thread.sleep(400);
+driver.findElement(By.xpath("//button[@id='signin']")).sendKeys("Kamrun kanta");
+		Thread.sleep(4000);
 	
 	boolean buttonEnable=driver.findElement(By.xpath("//button[@id='signin']")).isEnabled();
-	System.out.println("is button enabled" + buttonEnable);}
+	System.out.println("is button enabled" + buttonEnable);
+	}
 
 	@AfterTest
 	public void tearup() {

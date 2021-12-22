@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19134" started-at="2021-12-20T13:36:56 EST" finished-at="2021-12-20T13:37:15 EST">
+  <suite name="Default suite" duration-ms="51325" started-at="2021-12-22T17:36:34 EST" finished-at="2021-12-22T17:37:26 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19134" started-at="2021-12-20T13:36:56 EST" finished-at="2021-12-20T13:37:15 EST">
-      <class name="C_use_of_method">
-        <test-method status="PASS" signature="setup()[pri:0, instance:C_use_of_method@6a1aab78]" name="setup" is-config="true" duration-ms="8311" started-at="2021-12-20T13:36:56 EST" finished-at="2021-12-20T13:37:04 EST">
+    <test name="Default test" duration-ms="51325" started-at="2021-12-22T17:36:34 EST" finished-at="2021-12-22T17:37:26 EST">
+      <class name="Use_Of_manage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Use_Of_manage@6a1aab78]" name="setUp" is-config="true" duration-ms="10929" started-at="2021-12-22T17:36:34 EST" finished-at="2021-12-22T17:36:45 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logoTest()[pri:1, instance:C_use_of_method@6a1aab78]" name="logoTest" duration-ms="5083" started-at="2021-12-20T13:37:05 EST" finished-at="2021-12-20T13:37:10 EST">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="maximizeWindowTest()[pri:1, instance:Use_Of_manage@6a1aab78]" name="maximizeWindowTest" duration-ms="1436" started-at="2021-12-22T17:36:45 EST" finished-at="2021-12-22T17:36:47 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method status="PASS" signature="signInTest()[pri:2, instance:C_use_of_method@6a1aab78]" name="signInTest" duration-ms="24" started-at="2021-12-20T13:37:10 EST" finished-at="2021-12-20T13:37:10 EST">
+        </test-method> <!-- maximizeWindowTest -->
+        <test-method status="PASS" signature="sizeOfWindowTest()[pri:3, instance:Use_Of_manage@6a1aab78]" name="sizeOfWindowTest" duration-ms="12814" started-at="2021-12-22T17:36:47 EST" finished-at="2021-12-22T17:37:00 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signInTest -->
-        <test-method status="PASS" signature="titleTest()[pri:3, instance:C_use_of_method@6a1aab78]" name="titleTest" duration-ms="14" started-at="2021-12-20T13:37:10 EST" finished-at="2021-12-20T13:37:10 EST">
+        </test-method> <!-- sizeOfWindowTest -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:4, instance:Use_Of_manage@6a1aab78]" name="deleteAllCookies" duration-ms="6898" started-at="2021-12-22T17:37:00 EST" finished-at="2021-12-22T17:37:07 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="getCurrentUrl()[pri:4, instance:C_use_of_method@6a1aab78]" name="getCurrentUrl" duration-ms="8" started-at="2021-12-20T13:37:10 EST" finished-at="2021-12-20T13:37:10 EST">
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="setSpecsificSizeOfWindow()[pri:5, instance:Use_Of_manage@6a1aab78]" name="setSpecsificSizeOfWindow" duration-ms="17985" started-at="2021-12-22T17:37:07 EST" finished-at="2021-12-22T17:37:25 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getCurrentUrl -->
-        <test-method status="PASS" signature="sendKeysMethod()[pri:5, instance:C_use_of_method@6a1aab78]" name="sendKeysMethod" duration-ms="3062" started-at="2021-12-20T13:37:10 EST" finished-at="2021-12-20T13:37:13 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendKeysMethod -->
-        <test-method status="PASS" signature="getTextMethod()[pri:6, instance:C_use_of_method@6a1aab78]" name="getTextMethod" duration-ms="1882" started-at="2021-12-20T13:37:13 EST" finished-at="2021-12-20T13:37:15 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTextMethod -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:C_use_of_method@6a1aab78]" name="tearUp" is-config="true" duration-ms="702" started-at="2021-12-20T13:37:15 EST" finished-at="2021-12-20T13:37:15 EST">
+        </test-method> <!-- setSpecsificSizeOfWindow -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:Use_Of_manage@6a1aab78]" name="tearUp" is-config="true" duration-ms="1180" started-at="2021-12-22T17:37:25 EST" finished-at="2021-12-22T17:37:26 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- C_use_of_method -->
+      </class> <!-- Use_Of_manage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="C_use_of_method">
+      <class name="Use_Of_manage">
         <methods>
-          <include name="logoTest"/>
           <include name="tearUp"/>
-          <include name="setup"/>
+          <include name="setSpecsificSizeOfWindow"/>
+          <include name="deleteAllCookies"/>
+          <include name="sizeOfWindowTest"/>
+          <include name="setUp"/>
+          <include name="maximizeWindowTest"/>
         </methods>
-      </class> <!-- C_use_of_method -->
+      </class> <!-- Use_Of_manage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
