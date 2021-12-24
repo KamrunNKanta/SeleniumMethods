@@ -1,11 +1,12 @@
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import javafx.stage.Window;
+
 
 public class Use_Of_manage {
 
@@ -13,9 +14,9 @@ public class Use_Of_manage {
 
 	@BeforeTest
 	public void setUp() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\aer15\\eclipse-workspace\\JavaSeleniumMethods\\browser\\chromedriver.exe");
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.gecko.driver",
+				"C:\\Users\\aer15\\eclipse-workspace\\JavaSeleniumMethods\\browser\\geckodriver.exe");
+		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 
 		Thread.sleep(5000);
